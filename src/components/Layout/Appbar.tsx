@@ -3,12 +3,12 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Menu from "@mui/material/Menu";
 import Badge from "@mui/material/Badge";
+import { Toolbar } from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
 import MailIcon from "@mui/icons-material/Mail";
 import InputBase from "@mui/material/InputBase";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import { Container, Toolbar } from "@mui/material";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { styled, alpha } from "@mui/material/styles";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
@@ -160,7 +160,7 @@ export default function Appbar({ handleDrawerOpen }: any) {
         position="static"
         elevation={0}
         color="transparent"
-        sx={{ borderBottom: "1px solid #ddd", height: 70, color: "#555" }}
+        sx={{ borderBottom: "1px solid #ddd", height: 65, color: "#555" }}
       >
         <Box sx={{ margin: "auto 3%" }}>
           <Toolbar>
@@ -177,11 +177,11 @@ export default function Appbar({ handleDrawerOpen }: any) {
               <span className="font-[900] mr-3">ET</span>etopic <span className="font-[500]">Fonts</span>
             </Typography>
             <Box sx={{ flexGrow: 1 }} />
-            <Box sx={{ height: "68px", display: "flex" }}>
-              <h2 className="text-lg font-[500] cursor-pointer hover:bg-gray-100 hover:text-black px-10 flex items-center flex-1 border-b-[2.5px] border-indigo-500 text-indigo-500">
+            <Box sx={{ height: "63px", display: "flex" }}>
+              <h2 className="text-[1rem] font-[500] cursor-pointer hover:bg-gray-100 hover:text-black px-10 flex items-center flex-1 border-b-[2.5px] border-indigo-500 text-indigo-500">
                 Fonts
               </h2>
-              <h2 className="text-lg font-[500] cursor-pointer hover:bg-gray-100 hover:text-black px-10 flex items-center flex-1">
+              <h2 className="text-[1rem] font-[500] cursor-pointer hover:bg-gray-100 hover:text-black px-10 flex items-center flex-1">
                 FAQ
               </h2>
             </Box>
